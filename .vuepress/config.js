@@ -1,3 +1,1 @@
-module.exports = {
-    base: "/governor/"
-}
+module.exports = {}

@@ -16,5 +16,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: gh-pages
         FOLDER: .vuepress/dist
-        CNAME: docs.lavra.io
-        BUILD_SCRIPT: npm i -g vuepress && npm run docs:build
+        CNAME: governor.docs.lavra.io
+        BUILD_SCRIPT: yarn global add vuepress && yarn run build
